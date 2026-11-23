@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>HealthStepSync – Privacy Policy</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1c1f23; --muted:#5b6470; --line:#d9dde2; --link:#0b57b0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16181b; --fg:#e8eaed; --muted:#a3abb5; --line:#33383f; --link:#8ab4f8; }
+  }
+  html { background:var(--bg); }
+  body { margin:0; padding:2rem 1.25rem 4rem; background:var(--bg); color:var(--fg);
+         font:1rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width:42rem; margin:0 auto; }
+  h1 { font-size:1.75rem; line-height:1.25; margin:0 0 .25rem; }
+  h2 { font-size:1.2rem; margin:2rem 0 .5rem; padding-top:1rem; border-top:1px solid var(--line); }
+  p, li { max-width:70ch; }
+  .meta { color:var(--muted); margin:0 0 1.5rem; }
+  a { color:var(--link); }
+  a:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+</style>
+</head>
+<body>
+<main>
+<h1>HealthStepSync – Privacy Policy</h1>
+<p class="meta">Last updated: November 23, 2026</p>
+
+<p>HealthStepSync (package name <code>com.lukashin.stepsync</code>) is a small personal Android app made by an individual developer (“the developer”). It copies the user’s own step count from Huawei Health to Android Health Connect on the same phone. This policy explains what data the app handles and what it does with it.</p>
+
+<h2>What data the app handles</h2>
+<ul>
+  <li><strong>Step count.</strong> The app reads the step count recorded by the user’s Huawei wearable and shown in Huawei Health: the number of steps and the time interval in which they were taken. This is the only health data the app reads.</li>
+  <li><strong>Sync status.</strong> The app stores on the device the time and result of the last sync so that it can show them on screen and avoid writing the same steps twice.</li>
+</ul>
+<p>The app does not read any other health data (heart rate, sleep, location, body measurements and so on) and does not write anything to Huawei Health.</p>
+
+<h2>How the data is obtained</h2>
+<p>The app reads steps through Huawei Health Kit only after the user signs in with their Huawei ID and explicitly grants the step count read permission. The app writes steps to Android Health Connect only after the user grants the Health Connect step count write permission.</p>
+
+<h2>How the data is used</h2>
+<p>Step data is used for one purpose: to write the same steps to Android Health Connect on the same device, so that other apps the user has chosen to give Health Connect access to can see them. The data is not used for advertising, profiling, analytics, or any other purpose.</p>
+
+<h2>Storage and sharing</h2>
+<ul>
+  <li>All processing happens on the user’s phone. The app has no server and does not send step data or any other personal data to the developer or to any third party.</li>
+  <li>The app contains no advertising, analytics, or tracking tools.</li>
+  <li>Data is not sold or shared.</li>
+  <li>Huawei Health, Huawei Health Kit and the Huawei ID service are provided by Huawei, and Health Connect is provided by Google. These services process data under their own privacy policies, which the developer does not control.</li>
+</ul>
+
+<h2>User control</h2>
+<ul>
+  <li>The user can stop the app from reading Huawei data at any time by removing its authorization in Huawei Health (Privacy management, then data authorization) or in the Huawei ID settings.</li>
+  <li>The user can remove the app’s access to Health Connect, and delete the steps it wrote, in the Health Connect settings.</li>
+  <li>Uninstalling the app deletes everything the app stores locally on the device.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The app is not intended for children and is not distributed through any app store.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the app changes how it handles data, this page will be updated and the date at the top will change.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></p>
+</main>
+</body>
+</html>
